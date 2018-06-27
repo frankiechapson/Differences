@@ -29,6 +29,6 @@ And contains **DATA_ARE_DIFFER** function(s) for VARCHAR2, NUMBER, DATE and TIME
 
     PKG_DIFF.DATA_ARE_DIFFER( 'select 1223 from dual', 1234 )
 
-returns false.
+returns TRUE.
 
 This function is very useful in APEX to compare stored data with the current ITEM value.
